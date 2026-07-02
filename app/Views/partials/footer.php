@@ -57,7 +57,7 @@
 
             <!-- Bottom bar -->
             <div class="border-t border-border pt-6 flex flex-col md:flex-row justify-between items-center gap-3">
-                <p class="text-[11px] text-muted tracking-wide">&copy; <?= date('Y') ?> Singgih Car. All rights reserved.</p>
+                <p class="text-[11px] text-muted tracking-wide">&copy; <?= date('Y') ?> Singgih Car. All rights reserved. Development by <a href="https://kaizoratech.com" target="_blank" class="text-soft hover:text-cream transition-colors">Kaizora Tech</a>.</p>
                 <div class="flex items-center gap-4 text-[11px] text-muted tracking-wide">
                     <span>Yogyakarta</span>
                     <span class="w-1 h-1 bg-border rounded-full"></span>
