@@ -1,0 +1,7 @@
+# Exclude database config with credentials if any (wait, config.php is here, but let's keep it if it's generic, or exclude it? The user is deploying, so they need it).
+# Let's ignore php temporary files and dumps
+scratch/
+.idea/
+.vscode/
+.DS_Store
+*.log

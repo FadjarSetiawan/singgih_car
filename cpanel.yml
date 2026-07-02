@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/kaizorat/singgihcar.web.id/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/rsync -arv --exclude='.git' * $DEPLOYPATH
