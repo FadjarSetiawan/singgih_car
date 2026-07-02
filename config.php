@@ -8,12 +8,12 @@ session_start();
 
 // MENDUGA NAMA FOLDER PROYEKMU ADALAH 'singgih_car'. 
 // Ubah jika nama foldermu di htdocs berbeda (contoh: '/rental-mobil')
-define('BASE_URL', '/singgih_car');
+define('BASE_URL', 'https://singgihcar.web.id');
 
 $host = 'localhost';
-$dbname = 'singgih_car';
-$username = 'root';
-$password = '';
+$dbname = 'kaizorat_singgihcar';
+$username = 'kaizorat_usersinggihcar';
+$password = 'DWA?.i-zHqiEyzk*';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
